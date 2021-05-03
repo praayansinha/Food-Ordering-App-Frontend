@@ -5,13 +5,12 @@ import * as serviceWorker from './serviceWorker';
 <<<<<<< HEAD
 import Controller from './screens/Controller';
 =======
-import FoodOrderingApp from './FoodOrderingApp';
 import {BrowserRouter as Router} from 'react-router-dom';
 >>>>>>> d6961c8fe4e5599aab074210e723f727af4601f3
 
 ReactDOM.render(
     <Router>
-        <FoodOrderingApp/>
+        <Controller/>
     </Router>,
     document.getElementById('root')
 );

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Checkout.css';
-import Header from '../common/header/Header';
+import Header from '../../common/header/Header';
 import { Redirect } from 'react-router-dom'
 import 'font-awesome/css/font-awesome.min.css';
 
